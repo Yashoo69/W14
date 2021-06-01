@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -26,5 +26,5 @@
         </div>
     </main>
 </body>
-<?php include('./templates/footer.php') ?>
+<?php include './templates/footer.php' ?>
 </html>

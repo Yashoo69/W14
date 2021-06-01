@@ -22,6 +22,7 @@
             <form action="./controllers/logIn.php" method="POST">
 
                 Identifiant: <input type="text" name="identifiant" required /><br><br>
+
                 Password: <input type="password" name="password" required /><br><br>
 
 
@@ -33,3 +34,4 @@
 </body>
 <?php include('./templates/footer.php') ?>
 </html>
+
