@@ -21,6 +21,7 @@ nav a {
     display: flex;
     justify-content: center;
     box-shadow: 2px 2px 2px black;
+    font-family: fantasy;
 }
 
 header {
@@ -37,8 +38,7 @@ h2 {
     display: flex;
     justify-content: center;
     font-size: xx-large;
-    color: wheat;
-    text-shadow: 4px 4px black;
+    text-shadow: 4px 4px wheat;
     padding: 20px;
 }
 
@@ -51,8 +51,10 @@ h2 {
 
 #global {
     display: flex;
-    align-items: flex-start; 
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+   
 }
 
 #form {
@@ -63,17 +65,12 @@ h2 {
     background-color: rgba(0, 145, 241, 0.438);
     text-align-last: justify;
     margin: 70px;
+   
 }
 
 #connexion {
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: antiquewhite; 
-    display: flex;
-    width: 680px;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+    font-size: larger;
+    text-shadow: 1px 1px wheat;
 }
 
 .button {

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -14,22 +13,23 @@
     <main>
         <h2>Connexion</h2>
         <div id="global">
-            <div id="connexion">
+            <div >
 
-                <form action="./controllers/logIn.php" method="POST">
+                <form action="./controllers/logIn.php" id="connexion" method="POST">
 
-                <label for=""> Identifiant: <input type="text" name="identifiant" placeholder="Identifiant" required /></label>
+                    <label for=""> Identifiant: <input class="barre" type="text" name="identifiant" placeholder="Identifiant" required /></label>
 
-                <?php if(isset($_GET['error'])) : ?>
-                        <p style='color:red'>Utilisateur ou password incorrect</p> <?php endif ?>
 
-                <label for=""> Password: <input type="password" name="password" placeholder="Password" required /></label>
+                    <label for=""> Password: <input class="barre" type="password" name="password" placeholder="Password" required /></label>
 
-                <label for=""> Remember me: <input type="checkbox" name="remember" value="0"/></label>
-                   
-                       
-                    <input type="submit" class="button" id="login-button" value="Envoyer" />
+                    
+                    <label for=""> Remember me <input type="checkbox" name="remember" value="0" /></label>
+                    
+                    
+                    <input type="submit" class="button" id="login-button" value="Sign In" />
                 </form>
+                <?php if (isset($_GET['error'])) : ?> 
+                   <div class="wrong_pass"><p style='color:red'>Utilisateur ou password incorrect</p></div><?php endif ?>
             </div>
         </div>
     </main>
