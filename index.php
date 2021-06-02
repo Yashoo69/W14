@@ -17,9 +17,9 @@
 <body>
     <?php include('./templates/header.php') ?>
 
+
     <main>
         <?php
-
 
         if (isset($_SESSION['identifiant'])) :
             $id = ($_SESSION['identifiant']);

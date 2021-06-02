@@ -5,10 +5,9 @@
 <header>
     <nav>
         <ul class="navbar">
-            <li class="ltmenu"> <a href="index.php"> Acceuil </a></li>
+            <li class="ltmenu"> <a href="index.php"> Accueil </a></li>
             <li class="ltmenu"> <a href="user.php"> Utilisateurs </a></li>
-            <li class="ltmenu"> <a href="form.php"> Formulaire </a></li>
-
+        
             <?php if (isset($_SESSION['identifiant'])) :
                 $maj = $_SESSION['identifiant'];
                 $maj = ucfirst($maj); ?>
@@ -19,6 +18,7 @@
                     </div>
                 </div>
             <?php else : ?>
+                <li class="ltmenu"> <a href="form.php"> Inscription </a></li>
                 <li class="ltmenu"> <a href="session.php"> Connexion </a></li>
             <?php endif ?>
 

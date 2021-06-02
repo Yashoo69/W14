@@ -17,8 +17,8 @@ if  (isset($_SESSION['identifiant'])) {
 }
 
 else {
-    $log = "Nom d'utilisateur ou mot de passe incorrect";
-    header('location: ../session.php?error=' .$log);  
+    
+    header('location: ../session.php?error=');  
 }
 
 ?>
