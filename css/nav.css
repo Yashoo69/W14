@@ -25,7 +25,9 @@ nav a {
 }
 
 header {
-    background-color: rgb(24 199 251);
+    background: linear-gradient(
+        0deg
+        , #021533, #145f84 );
     height: 10vh;
     display: flex;     
 }
@@ -40,6 +42,7 @@ h2 {
     font-size: xx-large;
     text-shadow: 4px 4px wheat;
     padding: 20px;
+    font-family: fantasy;
 }
 
 .back {
@@ -61,10 +64,10 @@ h2 {
     border: 2px solid black;
     padding: 15px;
     border-radius: 10px;
-    color: rgb(0, 0, 0);
     background-color: rgba(0, 145, 241, 0.438);
     text-align-last: justify;
     margin: 70px;
+    padding: 25px;
    
 }
 

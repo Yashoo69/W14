@@ -11,7 +11,7 @@
 <body>
     <?php include('./templates/header.php') ?>
     <main>
-        <h2>Connexion</h2>
+        <h2>SIGN IN</h2>
         <div id="global">
             <div >
 
@@ -26,7 +26,7 @@
                     <label for=""> Remember me <input type="checkbox" name="remember" value="0" /></label>
                     
                     
-                    <input type="submit" class="button" id="login-button" value="Sign In" />
+                    <input type="submit" class="button" id="login-button" value="Send" />
                 </form>
                 <?php if (isset($_GET['error'])) : ?> 
                    <div class="wrong_pass"><p style='color:red'>Utilisateur ou password incorrect</p></div><?php endif ?>

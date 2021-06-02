@@ -10,7 +10,7 @@
 $nom = $_POST['nom'];
 $prenom = $_POST['Prenom'];
 $email = $_POST['user_email'];
-$password = $_POST['password'];
+
 
 ?>
 
@@ -30,13 +30,12 @@ $password = $_POST['password'];
 
         <div class="back">
             <h1>Merci de ton retour <?php echo $prenom ?> !</h1>
-            <img src="./images/formulaire.png" height="400px" width="400px" alt="au revoir">
+            <img src="./images/lotus.png" height="300px" width="400px" alt="au revoir">
             <div class="data">
 
                 <?= '<p>Nom : ' . $nom . '</p>' .
                     '<p>Prenom : ' . $prenom . '</p>' .
-                    '<p>Email : ' . $email . '</p>' .
-                    '<p>Password : ' . $password . '</p>'
+                    '<p>Email : ' . $email . '</p>' 
                 ?>
 
             </div>
