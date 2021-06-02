@@ -17,9 +17,9 @@
 
                 Nom : <input type="text" name="nom" required /><br><br>
                 Prénom: <input type="text" name="Prenom" required /><br><br>
-                Age : <input type="number" min="0" max="200" name="Age" required /><br><br>
                 E-mail: <input type="email" name="user_email" width: 173px; required /><br><br>
-                Adresse : <input type="text" name="adresse" required /><br><br>
+                Password: <input type="password" name="password" required><br><br>
+              
 
                 <input type="submit" name="submit" value="Envoyer" />
             </form>

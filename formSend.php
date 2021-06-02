@@ -8,10 +8,9 @@
 
 
 $nom = $_POST['nom'];
-$age = $_POST['Age'];
-$adresse = $_POST['adresse'];
 $prenom = $_POST['Prenom'];
 $email = $_POST['user_email'];
+$password = $_POST['password'];
 
 ?>
 
@@ -36,9 +35,8 @@ $email = $_POST['user_email'];
 
                 <?= '<p>Nom : ' . $nom . '</p>' .
                     '<p>Prenom : ' . $prenom . '</p>' .
-                    '<p>Age : ' . $age . ' ans ' . '</p>' .
                     '<p>Email : ' . $email . '</p>' .
-                    '<p>Adresse : ' . $adresse . '</p>';
+                    '<p>Password : ' . $password . '</p>'
                 ?>
 
             </div>

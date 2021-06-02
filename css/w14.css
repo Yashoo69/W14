@@ -10,7 +10,7 @@ body {
 main {
     height: 85vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     background-image: url('../images/photo.jpeg');
@@ -55,30 +55,8 @@ td {
     background-color: cornflowerblue;
 }
 
-#global {
-    display: flex;
-    align-items: flex-start;
-    height: 600px;
-    contain: size;
-    justify-content: center;
-}
 
-#form {
-    border: 2px solid black;
-    padding: 15px;
-    border-radius: 10px;
-    color: rgb(0, 0, 0);
-    background-color: rgba(0, 145, 241, 0.438);
-}
 
-#connexion {
-    border: 2px solid black;
-    border-radius: 15px;
-    background-color: antiquewhite;
-    text-align: center;
-    height: 200px;
-    display: flex;
-}
 
 .button {
     height: 30px;
