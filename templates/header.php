@@ -7,16 +7,17 @@
         <ul class="navbar">
             <li class="ltmenu"> <a href="index.php"> Accueil </a></li>
             <li class="ltmenu"> <a href="user.php"> Utilisateurs </a></li>
-        
+            
             <?php if (isset($_SESSION['identifiant'])) :
                 $maj = $_SESSION['identifiant'];
                 $maj = ucfirst($maj); ?>
+                    <li class="ltmenu"> <a href="template.php"> Secret </a></li>
                 <div class="dropdown">
                     <button onclick="drop()" class="dropbtn">Hi,<?= $maj ?></button>
                     <div id="myDropdown" class="dropdown-content">
                         <a href="./controllers/logOut.php">Log Out</a>
+                        </div>
                     </div>
-                </div>
             <?php else : ?>
                 <li class="ltmenu"> <a href="form.php"> Inscription </a></li>
                 <li class="ltmenu"> <a href="session.php"> Connexion </a></li>
