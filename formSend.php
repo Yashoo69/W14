@@ -7,8 +7,7 @@
 */
 
 
-$nom = $_POST['nom'];
-$prenom = $_POST['Prenom'];
+$nom = $_POST['displayName'];
 $email = $_POST['user_email'];
 
 
@@ -29,12 +28,11 @@ $email = $_POST['user_email'];
     <main>
 
         <div class="back">
-            <h1>Merci de ton retour <?php echo $prenom ?> !</h1>
+            <h1>Tu es bien inscris <?php echo $nom ?> !</h1>
             <img src="./images/lotus.png" height="300px" width="400px" alt="au revoir">
             <div class="data">
 
-                <?= '<p>Nom : ' . $nom . '</p>' .
-                    '<p>Prenom : ' . $prenom . '</p>' .
+                <?= '<p>Identifiant : ' . $nom . '</p>' .
                     '<p>Email : ' . $email . '</p>' 
                 ?>
 

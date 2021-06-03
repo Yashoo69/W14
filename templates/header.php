@@ -24,7 +24,7 @@
                     </div>
             <?php else : ?>
                 <li class="ltmenu"> <a href="form.php"> S'inscrire </a></li>
-                <li class="ltmenu"> <a href="session.php"> Connexion </a></li>
+                <li class="ltmenu"> <a href="session.php"> Se Connecter </a></li>
             <?php endif ?>
 
         </ul>
