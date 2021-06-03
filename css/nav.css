@@ -31,6 +31,14 @@ header {
     height: 10vh;
     display: flex;     
 }
+
+.separator {
+    display: inline-block;
+    height: 30px;
+    width: 1px;
+    background: white;
+    margin: auto 10px;
+}
   
 nav {
     width: 100%;
@@ -56,20 +64,9 @@ h2 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
-   
+    padding: 20px; 
 }
 
-#form {
-    border: 2px solid black;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: rgba(0, 145, 241, 0.438);
-    text-align-last: justify;
-    margin: 70px;
-    padding: 25px;
-   
-}
 
 #connexion {
     font-size: larger;

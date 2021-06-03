@@ -7,6 +7,7 @@
         <ul class="navbar">
             <li class="ltmenu"> <a href="index.php"> Accueil </a></li>
             <li class="ltmenu"> <a href="user.php"> Utilisateurs </a></li>
+            <li role="separator" class="separator"></li>
             
             <?php if (isset($_SESSION['identifiant'])) :
                 $maj = $_SESSION['identifiant'];
@@ -19,7 +20,7 @@
                         </div>
                     </div>
             <?php else : ?>
-                <li class="ltmenu"> <a href="form.php"> Inscription </a></li>
+                <li class="ltmenu"> <a href="form.php"> S'inscrire </a></li>
                 <li class="ltmenu"> <a href="session.php"> Connexion </a></li>
             <?php endif ?>
 

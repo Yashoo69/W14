@@ -16,3 +16,14 @@ main {
     justify-content: space-evenly;
 }
 
+#form {
+    height: 100%;
+} 
+
+#inscription {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
