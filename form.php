@@ -39,15 +39,15 @@
                 <legend class="genre">Quel est votre sexe ?</legend>
                 <div class="inLinegroup">
                     <div id="genreMale">
-                        <label for="option_genre_male">Masculin</label>
+                        <label for="option_genre_male"> <span class="spaName">Masculin</span></label>
                         <input type="radio" class="gender" name="gender" required value="male">
                     </div>
                     <div id="genreFemale">
-                        <label for="option_genre_female">Féminin</label>
+                        <label for="option_genre_female"> <span class="spaName">Féminin</span></label>
                         <input type="radio" class="gender" name="gender" required value="female">
                     </div>
                     <div id="genreNeutral">
-                        <label for="option_genre_neutral">Non-binaire</label>
+                        <label for="option_genre_neutral">  <span class="spaName">Non-binaire</span> </label>
                         <input type="radio" class="gender" name="gender" required value="neutral">
                     </div>
                 </div>
