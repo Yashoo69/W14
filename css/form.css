@@ -8,7 +8,7 @@ body {
 }
 
 main {
-    height: 85vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #f6f6f6;
@@ -17,12 +17,19 @@ main {
     justify-content: space-evenly;
 }
 
+h1 {
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: -0.04em;
+    margin-top: 40px;
+    padding-bottom: 24px;
+}
+
 #form {
     height: 100%;
 } 
 
 #inscription {
-    width: 400px;
     box-sizing: border-box;
     height: 100%;
     display: flex;
@@ -61,7 +68,6 @@ main {
     display: flex;
     font-weight: 700;
     width: 100%;
-    padding-bottom: 8px;
 }
 
 #genre  {
@@ -107,3 +113,53 @@ main {
     padding-left: 12px;
     padding-right: 24px;
 }
+
+.signUpButton {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+
+.formDiv {
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    padding-bottom: 30px;
+}
+
+.buttunInside {
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 500px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 0px;
+    align-self: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: normal;
+    padding-bottom: 24px;
+}
+
+.buttun {
+    background-color: #12587c;
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 16px 48px;
+}
+
+  

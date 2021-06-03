@@ -11,27 +11,27 @@
 <body>
 <?php include('./templates/header.php') ?>
     <main>
-        <h3>Inscrivez-vous gratuitement !</h3>
+        <h1>Inscrivez-vous gratuitement !</h1>
 
         <form action="formSend.php" id="inscription" method="POST">
 
-            <div id="email">
+            <div id="email" class="formDiv">
                 <label for="email" class="lab" >Quelle est votre adresse e-mail ?</label><br>
                 <input type="email" name="user_email" class="inputForm" placeholder="Saisissez votre adresse e-mail." required />
             </div>
-            <div id="confirm">
+            <div id="confirm" class="formDiv">
                 <label for="confirm" class="lab" >Confirmez votre adresse e-mail</label><br>
                 <input type="email" name="confirm" class="inputForm" placeholder="Saisissez de nouveau votre adresse e-mail." required />
             </div>
-            <div id="creMdp">
+            <div id="creMdp" class="formDiv">
                 <label for="password" class="lab" >Créez un mot de passe</label><br>
                 <input type="password" name="password" class="inputForm" placeholder="Créez un mot de passe.">
             </div>
-            <div id="displayName">
+            <div id="displayName" class="formDiv">
                 <label for="" class="lab" >Quel nom d'affichage souhaitez-vous définir ?</label><br>
                 <input type="text" name="displayName" class="inputForm" placeholder="Saisissez un nom de profil." required>
             </div>
-            <div id="birthday">
+            <div id="birthday" class="formDiv">
                 <label for="birthday" class="lab" >Quelle est votre date de naissance ?</label> <br>
                 <input type="age" name="birthday" class="inputForm" placeholder="date de naissance">
             </div>
@@ -54,8 +54,8 @@
             </fieldset>
 
             <div class="signUpButton">
-                <button type="submit" name="submit">
-                    <div class="button">S'inscrire</div>
+                <button type="submit" name="submit" class="buttunInside">
+                    <div class="buttun">S'inscrire</div>
                 </button>
             </div>
 
