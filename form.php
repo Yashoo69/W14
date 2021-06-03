@@ -59,10 +59,6 @@
                 </button>
             </div>
 
-
-
-
-            <input type="submit" name="submit" value="Envoyer" />
         </form>
 
     </main>
