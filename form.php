@@ -33,14 +33,7 @@
             </div>
             <div id="birthday" class="formDiv">
                 <label for="birthday" class="lab">Quelle est votre date de naissance ?</label> <br>
-                <div class="dateParent">
-                    <div class="day">
-                        <div></div>
-                    </div>
-                    <div class="month"></div>
-                    <div class="years"></div>
-                </div>
-                <input type="age" name="birthday" class="inputForm" max="100" placeholder="date de naissance">
+                <input type="date" age="birthday" name="birthday" class="inputForm" max="100" placeholder="date de naissance">
             </div>
             <fieldset role="radiogroup" id="genre">
                 <legend class="genre">Quel est votre sexe ?</legend>

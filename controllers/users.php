@@ -12,5 +12,13 @@ $users = [
     [
         'name' => 'Pierre',
         'password' => 91011
-    ] 
+    ],
+    [
+        'name' => 'Jacques',
+        'password' => 1213
+    ],
+    [
+        'name' => 'Ginette',
+        'password' => 1415
+    ]
 ];

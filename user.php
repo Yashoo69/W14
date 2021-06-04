@@ -15,6 +15,16 @@ $users = [
         'name' => 'Ginette',
         'color' => 'rose',
         'age' => 93
+    ],
+    [
+        'name' => 'Thomas',
+        'color' => 'vert',
+        'age' => 30
+    ],
+    [
+        'name' => 'Georges',
+        'color' => 'gris',
+        'age' => 54
     ]
 ];
 
