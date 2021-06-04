@@ -166,10 +166,9 @@ footer {
     min-width: 160px;
     text-transform: uppercase;
     white-space: normal;
-    color: #616467;
+    color: white;
     box-shadow: inset 0 0 0 2px #616467;
-    background-color: transparent;
-
+    background-color: #11567a;
 }
 
 .no_account {

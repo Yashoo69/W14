@@ -162,6 +162,7 @@ h1 {
     font-size: inherit;
     padding: 16px 48px;
     cursor: pointer;
+    color: white;
 }
 
 .session {
