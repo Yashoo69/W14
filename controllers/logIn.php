@@ -18,7 +18,7 @@ if  (isset($_SESSION['identifiant'])) {
 
 else {
     
-    header('location: ../session.php?error=');  
+    header('location: ../session.php?error');  
 }
 
 ?>

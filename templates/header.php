@@ -3,6 +3,9 @@
 ?>
 
 <header>
+        <div class="icon">
+        <img src="./images/montagne.png" alt="" height="100%" width="100%"  srcset="">
+        </div>
     <nav>
         <ul class="navbar">
             <li class="ltmenu"> <a href="index.php"> Accueil </a></li>
@@ -21,7 +24,7 @@
                     </div>
             <?php else : ?>
                 <li class="ltmenu"> <a href="form.php"> S'inscrire </a></li>
-                <li class="ltmenu"> <a href="session.php"> Connexion </a></li>
+                <li class="ltmenu"> <a href="session.php"> Se Connecter </a></li>
             <?php endif ?>
 
         </ul>

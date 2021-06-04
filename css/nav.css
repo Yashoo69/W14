@@ -1,13 +1,14 @@
 nav > ul {
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     height: 100%; 
 }
 
 nav li {
     display: flex;
     align-items: center;
+    margin-right: 40px;
 }
 
 nav a {
@@ -17,11 +18,15 @@ nav a {
     background-color: rgb(199, 145, 64);
     border-radius: 4px;
     padding: 10px;
-    width: 100px;
+    width: 111px;
     display: flex;
     justify-content: center;
     box-shadow: 2px 2px 2px black;
-    font-family: fantasy;
+}
+
+.icon {
+    height: 100px;
+    width: 175px;
 }
 
 header {
@@ -32,26 +37,28 @@ header {
     display: flex;     
 }
 
+footer {
+    height: 5vh;
+    background-color: black;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .separator {
     display: inline-block;
     height: 30px;
     width: 1px;
     background: white;
     margin: auto 10px;
+    margin-right: 50px;
 }
   
 nav {
     width: 100%;
 }
 
-h2 {
-    display: flex;
-    justify-content: center;
-    font-size: xx-large;
-    text-shadow: 4px 4px wheat;
-    padding: 20px;
-    font-family: fantasy;
-}
 
 .back {
     display: flex;
@@ -60,26 +67,12 @@ h2 {
     font-size: larger;
 }
 
-#global {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px; 
-}
-
-
-#connexion {
-    font-size: larger;
-    text-shadow: 1px 1px wheat;
-}
-
 .button {
-    height: 30px;
-    width: 80px;
+    height: 35px;
+    width: 90px;
     border-radius: 10px;
     box-shadow: 4px 4px 4px black;
-    cursor: pointer
-
+    cursor: pointer;
 }
 
 .none {
@@ -95,6 +88,7 @@ h2 {
     border-radius: 4px;
     border: 1px solid black;
     box-shadow: 2px 2px 2px black;
+    margin-right: 20px;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -116,7 +110,7 @@ h2 {
 
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 11px 10px;
     text-decoration: none;
     display: block;
     text-align: center;
